@@ -1,3 +1,64 @@
-.App {
+body {
   text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #184848;
+}
+
+p {
+  font-weight: 600;
+}
+
+.title {
+  background-color: #16453f;
+  margin: 0 auto;
+  width: 10%;
+  height: 30px;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+img {
+  max-width: 150px;
+}
+
+.planet-card {
+  background-color: #006060;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 4px;
+}
+.solar-system {
+  display: flex;
+  justify-content: center;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.mission-card {
+  background-color: #007878;
+  margin: 4px;
+  border-radius: 10px;
+  min-width: 150px;
+}
+
+.p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family:  sans-serif;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #1a2b2b;
+  margin: 0 auto;
+  padding: 5px;
 }
