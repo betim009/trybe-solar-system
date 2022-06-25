@@ -15,10 +15,10 @@ p {
   background-color: #16453f;
   border-radius: 4px;
   justify-content: center;
-  margin: 0 auto;
   height: 30px;
   width: 10%;
   margin-bottom: 6px;
+  margin: 0 auto;
 }
 
 img {
@@ -28,8 +28,8 @@ img {
 .planet-card {
   background-color: #006060;
   border-radius: 10px;
-  max-width: 200px;
   margin: 4px;
+  max-width: 200px;
 }
 
 .solar-system {
