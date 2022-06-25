@@ -14,10 +14,10 @@ p {
 .title {
   background-color: #16453f;
   border-radius: 4px;
+  justify-content: center;
+  margin: 0 auto;
   height: 30px;
   width: 10%;
-  margin: 0 auto;
-  justify-content: center;
   margin-bottom: 6px;
 }
 
@@ -31,6 +31,7 @@ img {
   max-width: 200px;
   margin: 4px;
 }
+
 .solar-system {
   display: flex;
   justify-content: center;
