@@ -24,16 +24,37 @@ img {
   max-width: 150px;
 }
 
+.solar-system {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
 .planet-card {
   background-color: #006060;
   border-radius: 10px;
   margin: 4px;
-  max-width: 200px;
+  width: calc(33.33% - 8px);
+  min-width: 150px;
+  transition: background-color 0.2s ease-in-out; /* Adiciona uma transição suave na mudança de cor */
 }
 
-.solar-system {
-  display: flex;
-  justify-content: center;
+.planet-card:hover {
+  background-color: #00bfbf; /* Define a nova cor ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+  .solar-system {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .planet-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .missions {
@@ -47,7 +68,25 @@ img {
   background-color: #007878;
   border-radius: 10px;
   margin: 4px;
+  width: calc(50% - 8px);
   min-width: 150px;
+  transition: background-color 0.2s ease-in-out; /* Adiciona uma transição suave na mudança de cor */
+}
+
+.mission-card:hover {
+  background-color: #00bfbf; /* Define a nova cor ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+  .missions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mission-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .p {
