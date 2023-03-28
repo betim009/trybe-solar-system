@@ -26,6 +26,6 @@ figma do projeto: https://www.figma.com/file/vcire16CytAa1QWrriuunm/Sistema-Sola
 
 ## Orientações: 
 
-`git clone git@github.com:betim009/trybe-solar-system.git`
-`npm install`
-`npm start`
+1. Clone o projeto: `git clone git@github.com:betim009/trybe-solar-system.git`
+2. Instale as dependências do projeto na raiz do projeto: `npm install`
+3. Inicie o projeto: `npm start`
